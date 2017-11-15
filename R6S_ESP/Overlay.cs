@@ -146,7 +146,6 @@ namespace R6S_ESP
                         Vector3 PlayerPos;
                         Vector3 HeadPos;
                         float width;
-                        Debug.WriteLine(Stuff.Data.entities.Count);
                         for (int i = 0; i < Stuff.Data.entities.Count - SubstractAmount; i++)
                         {
                             if (Stuff.GetPlayerTeam(CurrentPlayer) != LocalPlayerTeam || gMode == 1 || gMode == 2)
